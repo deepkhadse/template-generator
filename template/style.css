@@ -1,0 +1,139 @@
+
+body{
+ background-color: aliceblue;
+}
+.main-div {
+  width: 600px;
+  margin: auto;
+  background-color: aquamarine;
+}
+.top-div {
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+}
+.top-div-1-1 {
+  width: 300px;
+  height: 60px;
+  border-radius: 0px 0px 65px 0px;
+  background: #e7c332;
+}
+
+.top-div-1 {
+  background: #024e60;
+  width: 100%;
+}
+.top-div-1-2 {
+  height: 80px;
+  width: 380px;
+  float: right;
+  border-radius: 85px 0 0 0;
+  position: absolute;
+  bottom: 0;
+  background-color: bisque;
+  right: 0;
+}
+.top-div-1 .servics {
+  position: absolute;
+  bottom: 15px;
+  left: 30px;
+  font-size: 30px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+.middle-div span {
+  background: #e7c332;
+  color: #fff;
+  font-size: 30px;
+  border-radius: 50%;
+  margin: 0px 20px 0px 0px;
+  line-height: 1;
+  padding: 8px 10px;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px 15px 0;
+}
+p,
+h1 {
+  padding: 0;
+  margin: 0;
+}
+
+.center {
+  height: 130px;
+  position: relative;
+}
+.middle-div {
+  margin: 10px 0;
+}
+.center-1 {
+  position: absolute;
+  right: 85px;
+  bottom: 20px;
+}
+.center-2 {
+  width: 280px;
+  height: 280px;
+  border-radius: 100%;
+  position: absolute;
+  top: 25px;
+  left: 40px;
+  background: #024e60;
+}
+.foorter-1 {
+  background: #024e60;
+  height: 250px;
+  position: relative;
+}
+
+.foorter-1-1 {
+  width: 220px;
+  height: 220px;
+  background: #e7c332;
+  z-index: 1;
+  position: absolute;
+  left: 70px;
+  border-radius: 50%;
+  top: -75px;
+}
+.foorter-1-2 {
+  width: 47%;
+  float: right;
+  padding: 10px 0;
+  color: #fff;
+  display: flex;
+  align-items: baseline;
+}
+.foorter-1-3 {
+  position: absolute;
+  bottom: 0;
+  padding: 10px 50px;
+  color: #fff;
+}
+.foorter {
+  background: #e7c332;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+}
+.dot {
+  padding: 5px;
+  background: #e7c332;
+  width: 5px;
+  display: block;
+  height: 5px;
+  border-radius: 100%;
+  margin-right: 10px;
+}
